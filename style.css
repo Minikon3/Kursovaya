@@ -96,12 +96,22 @@ body {
         #section-4{
             height: 90vh;
         }
+        #section_more_info{
+            height: 100vh;
+        }
         .section2_grid1 .section2_grid1_box:nth-child(2){
             grid-row: span 2;
             grid-column: span 1;
         }
         .background-line{
             height: 500vh;
+        }
+        .box_section3 img{
+            width: 350px;
+        }
+        .box_section3{
+            width: 350px;
+            height: 200px;
         }
     }
     @media (max-width: 1744px) {
@@ -120,12 +130,45 @@ body {
         #section-4{
             height: 120vh;
         }
+        #section_more_info{
+            height: 100vh;
+        }
         .section2_grid1 .section2_grid1_box:nth-child(2){
             grid-row: span 2;
             grid-column: span 2;
         }
         .background-line{
             height: 520vh;
+        }
+    }
+    @media (max-width: 1239px){
+        #section_more_info{
+            height: 110vh;
+        }
+    }
+    @media (max-width: 1033px){
+        #section_more_info{
+            height: 120vh;
+        }
+    }
+    @media (max-width: 914px){
+        #section_more_info{
+            height: 130vh;
+        }
+    }
+    @media (max-width: 837px){
+        #section_more_info{
+            height: 140vh;
+        }
+    }
+    @media (max-width: 734px){
+        #section_more_info{
+            height: 150vh;
+        }
+    }
+    @media (max-width: 688px){
+        #section_more_info{
+            height: 160vh;
         }
     }
     @media (max-width: 1507px){
@@ -195,6 +238,13 @@ body {
         img{
             width: 200px;
         }
+        .box_section3 img{
+            width: 200px;
+        }
+        .box_section3{
+            width: 200px;
+            height: 114px;
+        }
         .info_footer span img{
             width: 20px;
         }
@@ -203,6 +253,21 @@ body {
         }
         .footer{
             padding: 50px 200px;
+        }
+        .background-line{
+            height: 850vh;
+        }
+    }
+
+    @media (max-width: 400px){
+        img{
+            width: 100px;
+        }
+        .info_footer span img{
+            width: 20px;
+        }
+        .items_footer a img{
+            width: 20px;
         }
         .background-line{
             height: 850vh;
@@ -322,16 +387,16 @@ body {
     .box_section3{
         background: #ffffff;
         position: relative;
-        width: 350px;
-        height: 200px;
+        /* width: 350px;
+        height: 200px; */
         margin: 40px;
         border-radius: 2em;
         overflow: hidden;
         transition: 0.5s;
     }
     .box_section3 img{
-        width: 350px;
-        height: 200px;
+        /* width: 350px; */
+        /* height: 200px; */
         object-fit: cover;
     }
     .box_section3::after{
