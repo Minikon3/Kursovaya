@@ -880,15 +880,17 @@ body {
         }
         #section-1{
             height: 220vh;
-            padding-bottom: 200px;
+            padding-bottom: 300px;
         }
         #section-2{
             height: 220vh;
+            padding-bottom: 300px;
         }
         #section-3{
             height: 200vh;
         }
         #section-4{
             height: 140vh;
+            padding-bottom: 300px;
         }
     }
