@@ -896,4 +896,7 @@ body {
         #section_more_info{
             height: 220vh;
         }
+        .more_info_div{
+            height: 90%;
+        }
     }
